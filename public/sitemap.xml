@@ -6,21 +6,9 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.protonwebmaster.com/</loc> 
+  <loc>https://dev.protonwebmaster.com/</loc> 
 </url>
 <url>
- <loc>https://www.protonwebmaster.com/landing-page</loc>
- </url>
-<url>
-  <loc>https://www.protonwebmaster.com/prestations-page</loc>
-  </url>
-<url>
-  <loc>https://www.protonwebmaster.com/engagements-page</loc>
- </url>
-<url>
-  <loc>https://www.protonwebmaster.com/pricing-page</loc>
- </url>
-<url>
-  <loc>https://www.protonwebmaster.com/legale-page</loc>
- </url>
+  <loc>https://dev.protonwebmaster.com/index.html</loc> 
+</url>
 </urlset>
