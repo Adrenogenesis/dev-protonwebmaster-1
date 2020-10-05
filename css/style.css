@@ -33,7 +33,7 @@ html, body, p, a, div, section {
  font-family: "Quicksand-Regular";
 }
 
-.img {
+img {
   max-width: 100%;
 }
 
@@ -394,7 +394,7 @@ blockquote {
     * to improve page load speed on mobile internet connections */
    background-image: url(../images/protonwebmaster-mobile.jpg);
  }
- }
+}
 
 /* Media Queries */
 @media only screen and (max-width: 340px) {
