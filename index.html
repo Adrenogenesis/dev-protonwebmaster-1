@@ -212,7 +212,33 @@
               <p>Il suffit de se connecter sur ma page Facebook et de faire un commentaire sur ma dernière publication : <a href="https://www.facebook.com/protonwebmaster"><i class="fab fa-facebook-square"></i></a></p>              
                     <div class="counter">
                          <p id="count"></p>
-                    </div>
+                    </div>                       
+                    <!-- Load Facebook SDK for JavaScript -->
+                          <div id="fb-root"></div>
+                          <script>
+                            window.fbAsyncInit = function() {
+                              FB.init({
+                                xfbml            : true,
+                                version          : 'v8.0'
+                              });
+                            };
+
+                            (function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                          }(document, 'script', 'facebook-jssdk'));</script>
+
+                          <!-- Your Chat Plugin code -->
+                          <div class="fb-customerchat"
+                                    attribution=setup_tool
+                                    page_id="108879627389463"
+                              theme_color="#00acc1"
+                              logged_in_greeting="Bonjour, puis-je vous aider ?"
+                              logged_out_greeting="Bonjour, puis-je vous aider ?">
+                          </div>
    </blockquote>
    <blockquote>
               <h3><i class="fas fa-key"></i>&nbsp;&nbsp;GIA ou Gestion des Identités</h3>
@@ -283,6 +309,7 @@
        </div>                
        <div>                 
            <p><i class="fas fa-phone"></i>&nbsp;<a href="tel:+33659910270"><span itemprop="telephone">06.59.91.02.70</span></a></p>
+           
        </div>              
 </div>        
      </blockquote>
