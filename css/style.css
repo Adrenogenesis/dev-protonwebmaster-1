@@ -95,6 +95,11 @@ p {
  --max: 1.1em;
 }
 
+h4 {
+  color: orange;
+  font-weight: bold;
+}
+
 span {
   font-size: clamp(var(--min), var(--val), var(--max));
   color: aqua;
