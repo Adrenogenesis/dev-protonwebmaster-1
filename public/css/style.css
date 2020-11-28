@@ -145,6 +145,12 @@ blockquote {
  line-height: 1.4;
 }
 
+.covid {
+  color: black;
+  background-color: white;
+  padding: 1%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -511,6 +517,10 @@ button {
     height: auto;
     margin: 0;
     padding-bottom: 5px;
+    }
+
+    .content {
+      position:static !important;
     }
 
     .flex-container {
