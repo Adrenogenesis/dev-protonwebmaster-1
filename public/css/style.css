@@ -148,7 +148,7 @@ blockquote {
 .covid {
   color: black;
   background-color: white;
-  padding: 1%;
+  padding: 2%;
 }
 
 .flex-container {
@@ -364,6 +364,11 @@ button {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+#prbtn {
+  cursor:pointer;
+  margin-bottom: 10px;
 }
 
 /* End button */
